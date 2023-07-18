@@ -8,7 +8,6 @@ const App = () => {
         {arr.map((name, index) => {
           return (
             <li
-            
               id={`relativeListItem${index}`}
               key={`relativeListItem${index}`}
             >
